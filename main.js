@@ -63,7 +63,7 @@ let game = {
         // Else add all three dice
         else (game.playerScore += (a + b + c))
     
-    document.querySelector(".userScore").innerHTML = `User Score: ${game.playerScore}`
+    document.querySelector(".userScore").innerHTML = `User: ${game.playerScore}`
     
     },
     
@@ -92,7 +92,7 @@ let game = {
         // Else add all three dice
         else (game.cpuScore += (a + b + c))
         
-    document.querySelector(".cpuScore").innerHTML = `CPU Score: ${game.cpuScore}`
+    document.querySelector(".cpuScore").innerHTML = `CPU: ${game.cpuScore}`
     },
     checkScores: function() {
         console.log(game)
@@ -106,6 +106,7 @@ let game = {
             document.querySelector("button").style.visibility = "hidden"
             alert("CPU Wins");
         }
+        // Have score appear before the alert message
     }
 }
 
@@ -185,4 +186,4 @@ function rollTheDice () {
 
 // Toggle rules and points sections
 // Add an animation to the dice - a for loop that would change the src of the images 
-// Have score appear before the alert message
+
