@@ -1,5 +1,11 @@
 console.log("I can do this!")
 
+document.querySelector(".showRandS").addEventListener("click", function () {document.querySelector(".rulesAndScoring").classList.toggle("hidden") })
+
+// toggle 
+// move the RandS button outside of the DIV.
+// create a new style
+
 let game = {
 
     playerScore: 0,
@@ -136,29 +142,23 @@ function rollTheDice () {
 }
 
 
-    document.querySelector("button").addEventListener("click", function () {
+    document.querySelector(".rollButton").addEventListener("click", function () {
         rollTheDice()
-        game.checkPlayerScore()
-        console.log(game, "#135")
-        game.checkScores()
+        setTimeout(function(){game.checkPlayerScore()}, 2000)
+        setTimeout(function(){game.checkScores()}, 1000)
         // Hide the button
-        document.querySelector("button").style.visibility = "hidden"    
+        document.querySelector(".rollButton").style.visibility = "hidden"    
         
         // set time interval for CPU to automatically go next
         // setTimeout(function(){rollTheDice()}, 3000)
         setTimeout(function(){
             rollTheDice();
             game.checkCpuScore();
-            document.querySelector("button").style.visibility = "visible";
+            document.querySelector(".rollButton").style.visibility = "visible";
             game.checkScores()
         }, 2000)
         // reveal button after CpU Score is ran
     })
-
-    // stop the game when a winner gets to 500
-    // Pop ups for player wins vs CPU wins
-
-
 
     // game.setFirstDice()
     // // Clear out the DIV (set inner HTMl to "")
@@ -184,6 +184,7 @@ function rollTheDice () {
 
 // Stretch Goals
 
-// Toggle rules and points sections
-// Add an animation to the dice - a for loop that would change the src of the images 
+
+// Add an animation to the dice - a for loop that would change the src of the images
+
 
