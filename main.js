@@ -100,11 +100,11 @@ let game = {
         let player = game.playerScore
         if(player >= 500){
             document.querySelector("button").style.visibility = "hidden"
-            alert("player Won!");
+            alert("User Won!");
         }
         if(cpu >= 500){
             document.querySelector("button").style.visibility = "hidden"
-            alert("player CPU!");
+            alert("CPU Wins");
         }
     }
 }
@@ -150,7 +150,7 @@ function rollTheDice () {
             game.checkCpuScore();
             document.querySelector("button").style.visibility = "visible";
             game.checkScores()
-        }, 1000)
+        }, 2000)
         // reveal button after CpU Score is ran
     })
 
@@ -185,4 +185,4 @@ function rollTheDice () {
 
 // Toggle rules and points sections
 // Add an animation to the dice - a for loop that would change the src of the images 
-// Change font size of icons to make bigger - 
+// Have score appear before the alert message
