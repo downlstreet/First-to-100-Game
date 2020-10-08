@@ -98,11 +98,11 @@ let game = {
         console.log(game)
         let cpu = game.cpuScore;
         let player = game.playerScore
-        if(player >= 100){
+        if(player >= 500){
             document.querySelector("button").style.visibility = "hidden"
             alert("player Won!");
         }
-        if(cpu >= 100){
+        if(cpu >= 500){
             document.querySelector("button").style.visibility = "hidden"
             alert("player CPU!");
         }
