@@ -17,8 +17,12 @@ body {
 h1 {
     text-align: center;
     color: white ;
-    font-family: 'Permanent Marker', cursive;
+    /* font-family: 'Permanent Marker', cursive; */
     font-size: 72px;
+}
+
+h2 {
+    color: #210fc0;
 }
 
 i {
@@ -31,6 +35,7 @@ img {
 }
 
 .rulesAndScoring {
+    color: rgb(62, 9, 105);
     display: flex;
     width: 600px;
 
@@ -46,7 +51,7 @@ button {
     background-color: #fff;
     font-size: 20px;
     border-radius: 5px; 
-    border: 2px solid red
+    border: 2px solid #210fc0
 }
 
 button:hover {
