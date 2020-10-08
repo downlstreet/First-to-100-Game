@@ -18,6 +18,14 @@ h1 {
     font-size: 72px;
 }
 
+i {
+    font-size: 96px;
+}
+
+img {
+    border-radius: 20px;
+}
+
 .rules {
     display: inline-block;
     width: 300px;
