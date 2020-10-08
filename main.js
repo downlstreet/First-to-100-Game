@@ -1,10 +1,5 @@
 console.log("I can do this!")
 
-// The "Roll Dice" button needs to get image to replace the icons
-
-
-
-
 let game = {
 
     playerScore: 0,
@@ -12,7 +7,6 @@ let game = {
     firstDice: "",
     secondDice: "",
     thirdDice: "",
-
 
 // The images need to be assigned to dice values
     setFirstDice: function () {
@@ -100,15 +94,15 @@ let game = {
         
     document.querySelector(".cpuScore").innerHTML = `CPU Score: ${game.cpuScore}`
     },
-    checkScore: function() {
+    checkScores: function() {
         console.log(game)
         let cpu = game.cpuScore;
         let player = game.playerScore
-        if(player > 20){
+        if(player >= 100){
             document.querySelector("button").style.visibility = "hidden"
             alert("player Won!");
         }
-        if(cpu > 20){
+        if(cpu >= 100){
             document.querySelector("button").style.visibility = "hidden"
             alert("player CPU!");
         }
@@ -145,19 +139,17 @@ function rollTheDice () {
         rollTheDice()
         game.checkPlayerScore()
         console.log(game, "#135")
-        game.checkScore()
+        game.checkScores()
         // Hide the button
-        document.querySelector("button").style.visibility = "hidden"
+        document.querySelector("button").style.visibility = "hidden"    
         
-        // set time out
-        
-        
+        // set time interval for CPU to automatically go next
         // setTimeout(function(){rollTheDice()}, 3000)
         setTimeout(function(){
             rollTheDice();
             game.checkCpuScore();
             document.querySelector("button").style.visibility = "visible";
-            game.checkScore()
+            game.checkScores()
         }, 1000)
         // reveal button after CpU Score is ran
     })
@@ -188,20 +180,9 @@ function rollTheDice () {
     // let newDivThree = document.querySelector(".diceThree")
     // newDivThree.appendChild(game.thirdDice)
 
-    
-    
-    
-    // set time interval for CPU to automatically go next 
-    // call a function to make the CPU run it's turn
 
-    // run the above function to 
-    
-
-
-
-
+// Stretch Goals
 
 // Toggle rules and points sections
-// Add an animation to the dice -a for loop that would change the src of the images 
+// Add an animation to the dice - a for loop that would change the src of the images 
 // Change font size of icons to make bigger - 
-// 
