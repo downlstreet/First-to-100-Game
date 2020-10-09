@@ -32,7 +32,7 @@ Each player gets one turn at a time, and three dice to roll. The point of the ga
 ![AddPointsCode](AddPointsCode.png)
 Being able to add third dice that does not match was a hurdle. This solved that. 
 
-![SetTimeoutCode](SetTimeoutCode.png)
+![SetTimeoutCode](SetTImeoutCode.png)
 Having the computer not run all the functions in a second, I had to set multiple timeouts between runs.
 
 
