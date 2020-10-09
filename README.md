@@ -9,7 +9,7 @@ Being a fan of all things game boards, rolling dice, and pure chance, I mulled o
 ### Screenshots
 
 ##### Jump Off
-![jumpoff](images/LandingPage.png)
+![jumpoff](LandingPage.png)
 
 
 ### User Stories & Wireframes
