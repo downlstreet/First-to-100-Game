@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-    color: #210fc0;
+    color: black;
 }
 
 i {
@@ -35,7 +35,7 @@ img {
 }
 
 .rulesAndScoring {
-    color: rgb(62, 9, 105);
+    color:#210fc0;
     display: flex;
     width: 600px;
 
@@ -47,14 +47,14 @@ img {
     align-items: center; 
 }
 
-button {
+.rollButton {
     background-color: #fff;
     font-size: 20px;
     border-radius: 5px; 
     border: 2px solid #210fc0
 }
 
-button:hover {
+.rollButton:hover {
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.4)
 }
 
@@ -71,5 +71,9 @@ button:hover {
     border: 3px dotted white;  
     padding: 50px;
     max-width: 200px;
+}
+
+.hidden {
+    display: none;
 }
 
