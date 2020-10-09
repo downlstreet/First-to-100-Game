@@ -1,6 +1,6 @@
-# First-to-100-Game
+# First-to-500-Game
 
-First to 100 is a game of luck between you and the computer. Roll the dice to see if you can score higher than the computer! Each roll gets you closer and closer. Cross your fingers for pairs and triplets!
+First to 500 is a game of luck between you and the computer. Roll the dice to see if you can score higher than the computer! Each roll gets you closer and closer. Cross your fingers for pairs and triplets!
 
 ### Motivation
 
