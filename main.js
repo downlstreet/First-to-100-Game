@@ -1,6 +1,9 @@
 console.log("I can do this!")
 
+document.querySelector(".rulesAndScoring").classList.add("hidden")
+
 document.querySelector(".showRandS").addEventListener("click", function () {document.querySelector(".rulesAndScoring").classList.toggle("hidden") })
+
 
 // toggle 
 // move the RandS button outside of the DIV.
