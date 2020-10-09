@@ -11,6 +11,7 @@ Being a fan of all things game boards, rolling dice, and pure chance, I mulled o
 ##### Jump Off
 ![jumpoff](LandingPage.png)
 
+![gameplay](GamePlay.png)
 
 ### User Stories & Wireframes
 
