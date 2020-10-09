@@ -9,9 +9,21 @@ Being a fan of all things game boards, rolling dice, and pure chance, I mulled o
 ### Screenshots
 
 ##### Jump Off
-![jumpoff](LandingPage.png)
+![jumpoff](images/LandingPage.png)
 
 
 ### User Stories & Wireframes
 
-Each player gets one turn at a time, and three dice to roll. The point of the game is to get to 500 points. With each 
+![wireframe](firstTo500WireFrame.png)
+Above wireframe was first set to 1000 before realizing the game might take too long for purposes here.
+
+Each player gets one turn at a time, and three dice to roll. The point of the game is to get to 500 points. With each turn, your dice will add up by their own value to your score. However, there are chances to get bonus points, and they are as follows:
+
+* Rolling a pair of 1s gets you 10 extra points
+* Rolling a pair of 2s gets you 20 extra points
+* Rolling a pair of 3s gets you 30 extra points
+* Rolling a pair of 4s gets you 40 extra points
+* Rolling a pair of 5s gets you 50 extra points
+* Rolling a pair of 6s gets you 60 extra points
+* Rolling triplets gets you 100 extra points
+
