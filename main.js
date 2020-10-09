@@ -54,7 +54,7 @@ let game = {
     // If triplets, add 100 points
         if (a === b && a === c) {
             game.playerScore += 100
-    // // Level 9000 = do all of below with one "else if"
+    // If
         }  else if (a === b || b === c || a === c) {
             if (a === b) {
                 game.playerScore += a*10
@@ -83,7 +83,7 @@ let game = {
     // If triplets, add 100 points
         if (a === b && a === c) {
             game.cpuScore += 100
-    // // Level 9000 = do all of below with one "else if"
+    // If pairs, add bonus points for pairs and add third dice
         }  else if (a === b || b === c || a === c) {
             if (a === b) {
                 game.cpuScore += a*10
